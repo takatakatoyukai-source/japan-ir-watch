@@ -1,0 +1,35 @@
+name: Japan IR Watch
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  check-ir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run IR checker
+        run: python scripts/check_ir.py
+
+      - name: Save updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ir.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update IR data"
+            git push
+          fi
