@@ -1,4 +1,4 @@
-name: Japan IR Watch
+name: Japan IR Watch Monitor
 
 on:
   workflow_dispatch:
