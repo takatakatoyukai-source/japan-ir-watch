@@ -1,5 +1,17 @@
 {
-  "updated_at": "2026-10-30T08:04:52+09:00",
+  "updated_at": "2026-10-30T08:59:33+09:00",
   "source": "TDnet",
-  "items": []
+  "items": [
+    {
+      "id": "b00203cc4fb63bbf33",
+      "code": "6768",
+      "name": "タムラ製作所",
+      "date": "2026-10-30",
+      "time": "08:30",
+      "title": "EMG Power Electric S.r.l.の株式取得完了（連結子会社化）に関するお知らせ",
+      "url": "https://www.release.tdnet.info/inbs/140120261027557104.pdf",
+      "important": true,
+      "source": "TDnet"
+    }
+  ]
 }
