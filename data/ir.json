@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-11-06T14:48:18+09:00",
+  "updated_at": "2026-11-06T15:54:56+09:00",
   "source": "TDnet",
   "items": [
+    {
+      "id": "3c484c1243ee6cd13f",
+      "code": "6315",
+      "name": "TOWA",
+      "date": "2026-11-06",
+      "time": "15:30",
+      "title": "2027年3月期 第2四半期（中間期）決算短信［決算短信］（連結）",
+      "url": "https://www.release.tdnet.info/inbs/140120261008548086.pdf",
+      "important": true,
+      "source": "TDnet"
+    },
+    {
+      "id": "cf54730e7d663b7784",
+      "code": "6315",
+      "name": "TOWA",
+      "date": "2026-11-06",
+      "time": "15:30",
+      "title": "2027年3月期通期業績予想及び配当予想の修正に関するお知らせ",
+      "url": "https://www.release.tdnet.info/inbs/140120261026555794.pdf",
+      "important": true,
+      "source": "TDnet"
+    },
     {
       "id": "b00203cc4fb63bbf33",
       "code": "6768",
