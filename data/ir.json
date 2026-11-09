@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-11-09T12:44:43+09:00",
+  "updated_at": "2026-11-09T13:53:25+09:00",
   "source": "TDnet",
   "items": [
+    {
+      "id": "eccbc4a514aa2490db",
+      "code": "6768",
+      "name": "タムラ製作所",
+      "date": "2026-11-09",
+      "time": "13:00",
+      "title": "2027年3月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "url": "https://www.release.tdnet.info/inbs/140120261105566105.pdf",
+      "important": true,
+      "source": "TDnet"
+    },
+    {
+      "id": "38d5f8695d7acd6edd",
+      "code": "6768",
+      "name": "タムラ製作所",
+      "date": "2026-11-09",
+      "time": "13:00",
+      "title": "2027年3月期通期連結業績予想の修正に関するお知らせ",
+      "url": "https://www.release.tdnet.info/inbs/140120261109568879.pdf",
+      "important": true,
+      "source": "TDnet"
+    },
     {
       "id": "3c484c1243ee6cd13f",
       "code": "6315",
